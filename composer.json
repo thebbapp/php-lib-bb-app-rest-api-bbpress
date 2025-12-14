@@ -1,0 +1,22 @@
+{
+    "name": "thebbapp/rest-api-bbpress",
+    "description": "BBPress REST API implementation for BbApp.",
+    "type": "library",
+    "license": "AGPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "BbApp\\RestAPI\\BbPress\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=7.2.24",
+        "ext-json": "*",
+        "thebbapp/rest-api-wordpress-base": "0.1.0"
+    },
+    "funding": [
+        {
+            "type": "paypal",
+            "url": "https://thebbapp.com/donate"
+        }
+    ]
+}
